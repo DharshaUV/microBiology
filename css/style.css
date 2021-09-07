@@ -1606,4 +1606,8 @@ a:focus {
         object-fit: cover;
       }
   }
+/* Service section */
+.bdr-rds{
+    border-radius: 19px !important;
+  }
   

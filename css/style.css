@@ -1610,4 +1610,6 @@ a:focus {
 .bdr-rds{
     border-radius: 19px !important;
   }
-  
+  .pm-0{
+    padding-bottom: 0 !important;
+}

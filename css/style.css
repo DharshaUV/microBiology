@@ -1620,11 +1620,11 @@ a:focus {
   width: 22% !important;}
 .ftlog{
   width: 42% !important;}
-.navbar-nav a .active{
+.nav-item a .active{
     border: 2px solid #15381d ;
     border-radius: 60% 5% 60% 5%;
   }
-  .navbar-nav a:hover .active{
+  .nav-item a:hover .active{
     background-color: #15381d;
     color: white !important;
   }

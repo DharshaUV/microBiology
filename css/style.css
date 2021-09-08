@@ -1517,6 +1517,9 @@ a:focus {
   #carousel .carousel-item.img1 {
     background-image: url("images/slider/img1.jpg");
   }
+#carousel .carousel-item.img5 {
+    background-image: url("images/slider/img6.jpg");
+  }
   
   #carousel .carousel-item.img2 {
     background-image: url("images/slider/img2.jpg");

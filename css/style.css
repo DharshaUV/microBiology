@@ -1631,3 +1631,28 @@ a:focus {
     background-color: #15381d;
     color: white !important;
   }
+.testimonial-block.style-2 .testimonial-thumb .cicon {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    /* border: 5px solid #eff0f3; */
+    margin-top: -5px;
+  }
+  .testimonial-block.style-2 .cicon {
+    bottom: -20px;
+    color: #9c3bbe;
+    opacity: unset;
+}
+.testimonial-block.style-2 i {
+  
+  color: #9c3bbe !important;
+}
+.testimonial-block .cicon {
+  font-size: 60px;
+  position: static; 
+   right: 46px;
+  bottom: 89px;
+  opacity: .08;
+}

@@ -1623,7 +1623,13 @@ a:focus {
   width: 36% !important;}
 .ftlog{
   width: 42% !important;}
-#navbarmain ul li a.active{
+  #navbarmain ul li a.active{
+    border: 2px solid #15381d;
+   
+    background: #26e326;
+  }
+  @media only screen and (min-width: 992px) {
+  #navbarmain ul li a.active{
     border: 2px solid #15381d ;
     border-radius: 60% 5% 60% 5%;
   }
@@ -1631,6 +1637,7 @@ a:focus {
     background-color: #15381d;
     color: white !important;
   }
+}
 .testimonial-block.style-2 .testimonial-thumb .cicon {
     width: 80px;
     height: 80px;

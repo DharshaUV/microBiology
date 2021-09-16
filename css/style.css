@@ -1609,6 +1609,10 @@ a:focus {
         object-fit: cover;
       }
   }
+
+.dropdown .dropdown-menu{
+    min-width: 300px !important;
+  }
 /* Service section */
 .bdr-rds{
     border-radius: 19px !important;

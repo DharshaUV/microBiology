@@ -8,7 +8,8 @@
   $Instagram = $_POST['instra'] ;
   $message =  $_POST['message'] ;
 
-         $to = "naved@webzesty.net";
+         $to = "dharshini92.somu@gmail.com";
+         $from = "evolutebioscience@gmail.com";
          $subject = Students Enqurid  ;
          
          $body = "<html>
@@ -43,7 +44,7 @@
                   </body>
                   </html>";
          
-         $header = "From: $email \r\n";
+         $header = "From: $from \r\n";
      //    $header .= "Cc:afgh@somedomain.com \r\n";
          $header .= "MIME-Version: 1.0\r\n";
          $header .= "Content-type: text/html\r\n";

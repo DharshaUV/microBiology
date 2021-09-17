@@ -1,6 +1,6 @@
 <?php
   if (isset($_POST["submit"])) {
-  $name = $_POST['f_name'] ;
+  $name = $_POST['name'] ;
   $email = $_POST['email'] ;
   $city = $_POST['city'] ;
   $mobnum = $_POST['mobnum'] ;
@@ -10,7 +10,7 @@
 
          $to = "dharshini92.somu@gmail.com";
          $from = "evolutebioscience@gmail.com";
-         $subject = Students Enqurid  ;
+         $subject = "Students Enqurid"  ;
          
          $body = "<html>
                   <head>

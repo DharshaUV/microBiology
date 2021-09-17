@@ -5,7 +5,7 @@
   $city = $_POST['city'] ;
   $mobnum = $_POST['mobnum'] ;
   $pincode = $_POST['pincode'] ;
-  $Instagram = $_POST['instra'] ;
+  $insta = $_POST['instra'] ;
   $message =  $_POST['message'] ;
 
          $to = "dharshini92.somu@gmail.com";
@@ -20,7 +20,7 @@
                   
                   <table>
                   <tr>
-                  <th style="">Name </th>
+                  <th>Name </th>
                   <th>Email id</th>
                   <th>Mobile Number</th>
                   <th>City</th>
@@ -32,9 +32,9 @@
                   <tr>
                             <td >$name</td>
                             <td><h3>$email</h3></td>
- 
+                             <td >$city</td>
                             <td >$mobnum</td>
-                            <td >$city</td>
+                            
                             <td >$pincode</td>
                             <td ><h3>$instra</h3></td>
  

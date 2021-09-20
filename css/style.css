@@ -1754,3 +1754,16 @@ img{ max-width:100%;}
   font-size: 27px;
     color: #19ef19 !important;
 }
+/* Columns */
+div.dropdown-menu{
+  width: 30em;
+}
+div.dropdown-menu>div.dropdown-col{
+  display:inline-block;
+  width: 32%;
+}
+
+
+.dropdown .dropdown-menu {
+  margin-left: auto !important;
+}

@@ -35,5 +35,7 @@
         .done(done_func)
         .fail(fail_func);
     });
+    //validation
+    $("input[required]").parent("label").addClass("required");
     
 })(jQuery);

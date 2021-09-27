@@ -43,7 +43,11 @@ img {
     margin-top: 8px;
     vertical-align: middle;  
 }
-
+.required:before{
+  content:"*";
+  font-weight:bold;
+  color:red;
+}
 
 </style>
 
@@ -156,15 +160,15 @@ img {
 	<section class="thanks">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-12 col-xl-7 non-flex">
-					<div class="block">
+				<div class="col-lg-6 col-md-12 col-xl-7 non-flex mt-5">
+					<div class="block mt-5">
 <!-- 						<span class="text-uppercase text-sm letter-spacing ">MicroBiology Projects</span> -->
 <!-- 						<div class="divider mb-3 mt-5"></div> -->
 	
 						
 						
 						
-						<div class="btn-container ">
+						<div class="btn-container mt-5 ">
 							<a href="Register.html" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Register Now <i class="icofont-simple-right ml-2  "></i></a>
 						</div>
 					</div>
@@ -362,7 +366,7 @@ img {
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row">      
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <input name="name" id="name" type="text" class="form-control" placeholder="Your Full Name" required>

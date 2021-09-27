@@ -2,6 +2,14 @@
 Theme bgColor - #9c3bbe,(#9c3bbe)
 body second color (text) - #14bf3b (or) #1f9a3b
 theme second bgColor - #15381d, (#15381d)
+/////////
+Theme bgColor - #9c3bbe,(#9c3bbe)
+body second color (text) - #14bf3b (or) #1f9a3b
+theme second bgColor - #15381d, (#15381d)
+theme bg color dark - #9c3bbe;
+bg text - #1d5129;
+header purple - #361a40
+purple text - #9c3bbe
 */
 
 @import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&display=swap");
@@ -14,7 +22,7 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
-  color: #1f9a3b;
+  color: #1d5129;
   font-weight: 400;
 }
 
@@ -108,9 +116,9 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .btn-main {
-  background: #9c3bbe;
+  background: #361a40;
   color: #fff;
-  border-color: #9c3bbe;
+  border-color: #361a40;
 }
 
 .btn-main:hover {
@@ -429,7 +437,7 @@ a:focus {
 }
 
 .header-top-bar {
-  background: #9c3bbe;
+  background: #361a40;
   font-size: 14px;
   padding: 10px 0px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
